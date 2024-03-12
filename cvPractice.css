@@ -1,0 +1,182 @@
+
+
+h1 { font-family: sans-serif; }
+h2 { font-family:  sans-serif; }
+h3 { font-family: sans-serif; }
+p{font-family: 'Times New Roman', Times, serif;}
+
+h1 { color: #695b73; }
+.leftPanel, .leftPanel a { color: #bebebe; text-decoration: none; }
+.leftPanel h2 { color: white; }
+ 
+h2 { margin: -0.1cm ; } /*objective and box adjustment */
+.contactIcon { width: 1.5cm; text-align: center; } 
+ p { margin: 0.05cm 0; } 
+p{font-size: 120%;}
+
+/*space bw objective and p */ 
+.rightPanel h2{
+    margin-bottom: 5cm;
+}
+
+
+body {
+     background: rgb(204,204,204);
+      /* width: 21cm; height: 29.7cm;  */
+      margin: 0 auto; 
+    }
+.container {
+     display: flex; width: 100%; height: 100%;
+     /* margin-left: -3cm;  */
+    }
+.leftPanel {
+     /* width: 100%; */
+      background: rgb(47, 45, 52); padding: 0.77cm; display: flex; flex-direction: column;
+     }
+
+
+.rightPanel
+   {
+     /* width: 120%; */
+      padding: 0.7cm; 
+    }
+.leftPanel img { 
+    width: 4cm;
+     height: 4cm; margin-bottom: -1.0cm; border-radius: 50%; border: 0.15cm solid white; object-fit: cover; object-position: 50% 50%;
+ }
+.leftPanel .details {
+     width: 100%; display: flex; flex-direction: column;
+     }
+
+
+
+hr{
+    margin-top: -9.5%;color: gray;
+ }
+.item pre
+ h2{
+    word-spacing: 0cm;
+}
+.obj{
+    background-color:rgb(96, 95, 98);
+    width:100%;
+    padding:10px;
+    margin-bottom: 10px;
+    
+}
+ .edu{
+    background-color:rgb(96, 95, 98);
+    width:100%px;
+    padding: 1.2px ;
+
+
+}
+
+  .rightPanel div  table th,
+  .rightPanel div table td {
+width: 4px;
+margin: 2%;
+font-size: 18px;
+padding: 3px;
+text-align: left;
+border: 2px solid black;
+border-left: 1;
+}
+
+
+.edu h2{
+    margin: 0.2em;
+}
+.obj h2 {
+     margin: -0.2cm; 
+
+/* width: 100%; */
+}
+/* margin-left: 0.2%;  */
+
+.obj p{
+    font-size: 14px;
+    margin: 1 px 0;
+}
+.edu h2{
+    margin-bottom: 5;
+}
+
+.skills{
+    background-color:rgb(96, 95, 98);
+    width:100%;
+    padding: 0.2px ;
+
+
+}
+.skills h2{
+    margin: 0.2%;
+}
+ li{
+    font-size: 120%;
+}
+
+.pro{
+    background-color:rgb(96, 95, 98);
+    width:100%;
+    padding: 0.2px ;
+padding:0.2;
+
+}
+.pro h2{
+    margin: 0.2%;
+}
+ li{
+    font-size: 120%;
+    text-align: left;
+}
+
+
+.Interests{
+    background-color:rgb(96, 95, 98); 
+    /* background-color:rgb(204, 204, 204); */
+    width:100%;
+    padding: 0.2px ;
+
+
+}
+.Interests h2{
+    margin: 0.2%;
+}
+ li{
+    text-align: left;
+    font-size: 120%;
+    margin: 5px;
+}
+
+
+@media (max-width: 600px) {
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+    }
+  
+    .container {
+      flex-direction: column;
+    }
+  
+    .leftPanel {
+      width: 100%;
+      padding: 0.5cm; /* Adjust padding for smaller screens */
+    }
+  
+    .leftPanel img {
+      width: 60%; /* Make the image responsive */
+      height: auto;
+      margin-bottom: 0.5cm; /* Adjust margin for spacing */
+    }
+  
+    .rightPanel {
+      padding: 0.5cm; /* Adjust padding for smaller screens */
+    }
+  }
+
+
+
+  
